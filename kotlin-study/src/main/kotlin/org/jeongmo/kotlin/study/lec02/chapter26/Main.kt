@@ -8,12 +8,12 @@ fun main() {
         println(sum(*range.toList().toIntArray()))
     }
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val array = arrayOf(1, 2, 3, 4, 5)
     println(sum(*array.toIntArray()))
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val array2 = intArrayOf(1, 2, 3, 4, 5)
     println(sum(*array2))

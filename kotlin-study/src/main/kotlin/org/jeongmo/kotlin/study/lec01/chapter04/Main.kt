@@ -16,7 +16,7 @@ fun main() {
 
     println("int1 + 2, int2 += 1: $int2")
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val str : String = "String"
     val double : Double = 2.3

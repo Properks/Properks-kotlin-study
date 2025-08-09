@@ -1,5 +1,6 @@
 package org.jeongmo.kotlin.study.global.constants
 
 object PrintConstants {
-    const val LINE : String = "-------------------------------------"
+    private const val LINE : String = "-------------------------------------"
+    fun printLine() : Unit = println(LINE)
 }

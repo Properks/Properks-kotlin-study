@@ -9,7 +9,7 @@ fun main() {
     addAndPrint(cup, 68.3)
     addAndPrint(cup, 49.2)
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
     val cup2 = Cup()
     val cup3 = cup2
 

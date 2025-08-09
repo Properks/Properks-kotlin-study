@@ -17,7 +17,7 @@ fun main() {
         Book("title5", "author5"),
     )
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
     for ((title, author) in list) {
         println("title: $title, author $author")
     }

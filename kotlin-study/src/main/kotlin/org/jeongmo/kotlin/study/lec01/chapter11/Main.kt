@@ -8,7 +8,7 @@ fun main() {
         println("Integer: ${integer++}")
     }
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val range = 1..3
     println("range: $range")
@@ -16,7 +16,7 @@ fun main() {
         println("i: $i")
     }
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val range2 = 1 until 3
     println("range2: $range2")
@@ -24,7 +24,7 @@ fun main() {
         println("i: $i")
     }
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val str = "String"
     for (i in str) {

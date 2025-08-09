@@ -9,7 +9,7 @@ fun main() {
     println("Person Greeting: ${person.greeting}")
 //    person.name // error
 
-    println(PrintConstants.LINE)
+    PrintConstants.printLine()
 
     val student = Student("jeong")
     println("name: ${student.name}")
